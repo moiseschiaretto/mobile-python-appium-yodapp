@@ -151,13 +151,13 @@ Gravação real de uma execução de testes (`adb shell screenrecord`), capturan
 
 ### Prints das telas do app
 
-| Splash / Início | Login |
+| Login | Cadastro |
 |---|---|
-| ![Splash Yodapp](docs/screenshots/01-splash.png) | ![Login](docs/screenshots/02-login.png) |
+| ![Login](docs/screenshots/01-login.png) | ![Cadastro](docs/screenshots/02-cadastro.png) |
 
-| Cadastro | Módulo Checkbox |
+| Módulo Checkbox | Star Wars - Lista |
 |---|---|
-| ![Cadastro](docs/screenshots/03-cadastro.png) | ![Módulo Checkbox](docs/screenshots/04-checkbox.png) |
+| ![Módulo Checkbox](docs/screenshots/03-checkbox.png) | ![Star Wars - Lista](docs/screenshots/04-lista.png) |
 
 ## Estrutura
 
