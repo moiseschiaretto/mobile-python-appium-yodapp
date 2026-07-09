@@ -22,7 +22,7 @@ Este projeto está em construção.
 | Login | ✅ Implementado e validado |
 | Cadastro | ✅ Implementado e validado |
 | Lista | ✅ Implementado e validado |
-| Busca | ⚠️ Navegação e carregamento validados; passo de digitação ainda não confirmado no Inspector |
+| Busca | ✅ Implementado e validado |
 | Diálogo (Dialogs) | ✅ Implementado e validado |
 
 ## 🚀 Como Começar
@@ -143,7 +143,7 @@ allure open allure-report
 
 ## 📸 Demonstração em vídeo
 
-Gravação real de uma execução de testes (`adb shell screenrecord`), capturando exclusivamente a tela do emulador Android durante os módulos Clique Simples/Longo, Checkbox e Diálogo:
+Gravação real de uma execução de testes (`adb shell screenrecord`), capturando exclusivamente a tela do emulador Android durante os cenários: Login (preenchimento), Cadastro (preenchimento e submissão), Checkbox (múltipla seleção), Botões de Radio (troca de seleção), Lista (seleção de personagem) e Busca (pesquisa de personagem) — Star Wars:
 
 <video src="docs/screenshots/demo-execucao.mp4" controls width="360"></video>
 
@@ -175,7 +175,7 @@ pages/
   login_page.py             # Módulo Login (Formulários) - validado
   cadastro_page.py          # Módulo Cadastro (Formulários) - validado
   lista_page.py             # Módulo Lista (Star Wars) - validado
-  busca_page.py             # Módulo Busca (Star Wars) - navegação validada, digitação pendente de confirmação
+  busca_page.py             # Módulo Busca (Star Wars) - validado
   dialogo_page.py           # Módulo Dialogs - validado
 tests/
   test_simple_click.py      # Clique Simples e Clique Longo (validados)
@@ -184,7 +184,7 @@ tests/
   test_login.py             # Teste real e funcional
   test_cadastro.py          # Teste real e funcional
   test_lista.py             # Teste real e funcional (Star Wars > Lista)
-  test_busca.py             # Teste real - digitação usa locator não confirmado (ver pages/busca_page.py)
+  test_busca.py             # Teste real e funcional
   test_dialogo.py           # Teste real e funcional
 conftest.py                 # Fixture do driver Appium (scope="function" - app abre/fecha a cada teste)
 app/
@@ -194,11 +194,6 @@ app/
 docs/
   screenshots/             # Screenshots e vídeo de execução
 ```
-
-## Próximos passos
-
-1. Confirmar o locator de digitação do módulo Busca via Appium Inspector
-2. Gravar o vídeo de execução completa e adicionar na seção "Demonstração em vídeo"
 
 ## CI/CD
 
