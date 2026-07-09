@@ -143,7 +143,7 @@ allure open allure-report
 
 ## 📸 Demonstração em vídeo
 
-Gravação real de uma execução de testes (`adb shell screenrecord`), capturando exclusivamente a tela do emulador Android durante os cenários: Login (preenchimento), Cadastro (preenchimento e submissão), Checkbox (múltipla seleção), Botões de Radio (troca de seleção), Lista (seleção de personagem) e Busca (pesquisa de personagem) — Star Wars:
+Gravação real de uma execução de testes (`adb shell screenrecord`), capturando exclusivamente a tela do emulador Android, na seguinte ordem: Login (preenchimento) → Cadastro (preenchimento e submissão) → Checkbox (múltipla seleção) → Botões de Radio (troca de seleção) → Lista (seleção de personagem, Star Wars) → Busca (pesquisa de personagem, Star Wars):
 
 <video src="docs/screenshots/demo-execucao.mp4" controls width="360"></video>
 
