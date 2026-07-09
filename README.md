@@ -151,17 +151,13 @@ Gravação real de uma execução de testes (`adb shell screenrecord`), capturan
 
 ### Prints das telas do app
 
-| Splash / Início | Menu "Clique em Botões" |
+| Splash / Início | Login |
 |---|---|
-| ![Splash Yodapp](docs/screenshots/01-splash.png) | ![Menu Clique em Botões](docs/screenshots/02-clique-botoes-menu.png) |
+| ![Splash Yodapp](docs/screenshots/01-splash.png) | ![Login](docs/screenshots/02-login.png) |
 
-| Clique Longo (confirmado) | Módulo Checkbox |
+| Cadastro | Módulo Checkbox |
 |---|---|
-| ![Clique longo confirmado](docs/screenshots/03-clique-longo.png) | ![Módulo Checkbox](docs/screenshots/04-checkbox.png) |
-
-| Menu "Check e Radio" |
-|---|
-| ![Menu Check e Radio](docs/screenshots/05-check-radio-menu.png) |
+| ![Cadastro](docs/screenshots/03-cadastro.png) | ![Módulo Checkbox](docs/screenshots/04-checkbox.png) |
 
 ## Estrutura
 
