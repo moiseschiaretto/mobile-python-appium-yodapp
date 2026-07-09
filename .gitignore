@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+allure-results/
+allure-report/
+reports/
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+.claude/settings.local.json
